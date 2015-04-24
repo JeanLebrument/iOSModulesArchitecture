@@ -9,8 +9,6 @@ import Foundation
 
 class FirstModuleWireframe
 {
-    weak var viewController : FirstModuleViewController?
-
     let FirstModuleViewControllerIdentifier = "FirstModuleViewController"
     
     init(){}
@@ -19,9 +17,7 @@ class FirstModuleWireframe
     {
         let tmpViewController = FirstModuleViewControllerromStoryboard()
 
-        RootWireframe.showViewController(tmpViewController, inWindow: window)
-        
-        viewController = tmpViewController
+        RootWireframe.showViewController(tmpViewController, inWindow: window)        
     }
     
     func FirstModuleViewControllerromStoryboard() -> FirstModuleViewController
