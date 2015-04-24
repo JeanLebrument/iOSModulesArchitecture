@@ -5,7 +5,7 @@ In this application, there are two modules. The first one retrieve a model which
 
 ## Class diagram
 
-![class diagram](http://s15.postimg.org/oi2p1jh8b/Passing_Data_class_diagram.png)
+![class diagram](http://s14.postimg.org/g7de4nxsh/Passing_Data_class_diagram.png)
 
 ## FAQ
 
