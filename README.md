@@ -13,6 +13,12 @@ After downloading the repository, be sure that you already installed [cocoapods]
 
 ![class diagram](http://s14.postimg.org/g7de4nxsh/Passing_Data_class_diagram.png)
 
+As you can see with the `stereotypes` on the class diagram there are different design patterns used in this module:
+- [Builder](https://sourcemaking.com/design_patterns/builder)
+- [Facade] (https://sourcemaking.com/design_patterns/facade)
+- [Mediator] (https://sourcemaking.com/design_patterns/mediator)
+- [Strategy] (https://sourcemaking.com/design_patterns/strategy)
+
 ## FAQ
 
 **Q: How can I transfer objects from one module to another?**    
