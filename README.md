@@ -1,5 +1,5 @@
 # iOSModuleArchitecture
-Quick example of how divide an app into module to respect the [SOLID](http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) principles based on the [VIPER architecture](http://www.objc.io/issue-13/viper.html).
+Quick example of how divide an app into modules to respect the [SOLID](http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) principles based on the [VIPER architecture](http://www.objc.io/issue-13/viper.html).
 
 In this application, there are two modules. The first one retrieve a model which contains a string from the (fake) remote data store in order to send the string and display it in the second module.
 
