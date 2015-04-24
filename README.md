@@ -8,6 +8,17 @@ In this application, there are two modules. The first one retrieve a model which
 
 After downloading the repository, be sure that you already installed [cocoapods](https://cocoapods.org/) and run the command `pod install` in the directory of the repository through a terminal. Then open the file named **iOSModuleArchitecture.xcworkspace**. 
 
+## Architecture
+
+- **Builder**: Builder design pattern in charge of the instantiation of the whole module
+- **IO**: Class that manage the input and the output of the module.
+- **Wireframe**: Manages the instantiation of the view inside the window.
+- **ViewController**: The ViewController displays the UI elements and sends the user interaction to the Presenter
+- **Presenter:** Mediator design pattern that drive the interactions between the ViewController, the Interactor and the IO. This class drives the user interaction depending on the type of action. (business logic or the changing of module)
+- **Interactor:** Manages all the business logic of the module and handles the call to the Datastore to store and retrieve objects.
+- **Datastore:** Communicates with the local storage and the remote storage by using the strategy design pattern.
+- **Model:** Simply the data that will be transferred in the module.
+
 ## Class diagram
 *This class diagram represents the modelization of the main module - FirstModule - of this app*
 
