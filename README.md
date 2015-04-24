@@ -10,5 +10,5 @@ In this application, there are two modules. The first one retrieve a model which
 ## FAQ
 
 **Q: How can I transfer objects from one module to another?**    
-A: CoreData is the perfect tool for this. Send the string entity id of the storred object to your second module, then retrieve the object from core data using the entity id.
+A: CoreData is the perfect tool for this. Send the string entity id of the stored object to your second module, then retrieve the object from core data using the entity id.
 
