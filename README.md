@@ -1,7 +1,7 @@
 # iOSModuleArchitecture
 Quick example of how divide an app into module to respect the SOLID principles.
 
-In this application, there are two modules. The first one retrieve a model from the (fake) remote data store in order to display it in the second module when the button on the first button as been pressed.
+In this application, there are two modules. The first one retrieve a model which contains a string from the (fake) remote data store in order to send the string and display it in the second module.
 
 ## Class diagram
 
