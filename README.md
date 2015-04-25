@@ -37,6 +37,9 @@ As you can see with the `stereotypes` on the class diagram there are different d
 
 ## FAQ
 
+**Q:Isn't it overkill such a decomposition?**
+A: I took the habit to always decompose the features of an app in modules composed in the same way as described in this repository. Such an implementation permits to the modules to be interchangeable, highly scalable and highly abstracted. If you're afraid that you will take too much time to implement a whole app using this architecture keep in mind two facts. Firstly, you can create tools to automate the creation of module with all the boilerplate code. And you will loose less time to take the time to think to a *good-enough* architecture rather than program a cheap one and redo everything from scratch when the first version of the project starts to be unmanageable.
+
 **Q: How can I transfer objects from one module to another?**    
 A: CoreData is the perfect tool for this. Send the string entity id of the stored object to your second module, then retrieve the object from core data using the entity id.
 
